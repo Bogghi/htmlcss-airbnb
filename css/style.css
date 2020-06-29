@@ -1,9 +1,11 @@
+/* reseting the document */
 * {
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
 }
 
+/* defining the general background container */
 .container {
     position: relative;
     height: 100vh;
@@ -12,14 +14,17 @@
     background-size: cover;
 }
 
+/*overwriting the background container for different location */
 .taipei {
     background-image: url(../img/taipei.jpeg);
 }
 
+/*overwriting the background container for different location */
 .praga {
     background-image: url(../img/praga.jpeg);
 }
 
+/*layover definition*/
 .layover {
     position: absolute;
     top: 0;
@@ -29,6 +34,7 @@
     background-color: rgba(233,233,240,0.2);    
 }
 
+/* title style defintion*/
 .title {
     font-size: 40px;
     position: absolute;
